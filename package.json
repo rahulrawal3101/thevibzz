@@ -1,0 +1,26 @@
+{
+  "name": "thevibzznextnew",
+  "version": "0.1.0",
+  "private": true,
+  "scripts": {
+    "dev": "next dev",
+    "build": "next build",
+    "start": "next start",
+    "lint": "next lint"
+  },
+  "dependencies": {
+    "@emotion/react": "^11.11.1",
+    "@emotion/styled": "^11.11.0",
+    "@fontsource/roboto": "^5.0.8",
+    "@mui/icons-material": "^5.14.12",
+    "@mui/material": "^5.14.12",
+    "@mui/styled-engine-sc": "^5.14.12",
+    "mongoose": "^7.6.3",
+    "next": "13.5.4",
+    "react": "^18",
+    "react-awesome-slider": "^4.1.0",
+    "react-dom": "^18",
+    "react-slideshow-image": "^4.2.1",
+    "styled-components": "^5.3.11"
+  }
+}
