@@ -129,7 +129,7 @@ const Header = () => {
             </Grid>
 
 
-            <Grid ref={elementRef1} container sx={{ position: isTouchingTop == true ? "sticky" : "static", top: "-2px", bgcolor: "black", display: { lg: "block", md: "block", sm: "none", xs: "none" }, zIndex: 99999 }}>
+            <Grid ref={elementRef1} container sx={{ position: isTouchingTop == true ? "sticky" : "static", top: "-2px", bgcolor: "black", display: { lg: "block", md: "block", sm: "none", xs: "none" }, zIndex: 999 }}>
                 <Grid container sx={{ p: "10px 0px" }}>
                     <Grid item xs={4} sx={{ display: "flex", justifyContent: "space-around" }}>
                         <Grid container>
