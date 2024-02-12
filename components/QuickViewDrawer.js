@@ -77,7 +77,7 @@ const QuickViewDrawer = ({ open, setOpen,data }) => {
             open={open}
             onClose={() => { setOpen(false) }}
             PaperProps={{
-                sx: { width: { lg: '29%', md: '35%', sm: '45%', xs: '75%' }, margin: 'auto', bgcolor: 'white' }
+                sx: { width: { lg: '29%', md: '35%', sm: '45%', xs: '75%' }, margin: 'auto', bgcolor: 'white',zIndex:9999 }
             }}
         >
             <Grid container sx={{ color: 'white', p: '4px 10px', justifyContent: 'center', alignItems: 'center' }} >

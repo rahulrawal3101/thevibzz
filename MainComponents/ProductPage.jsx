@@ -121,7 +121,7 @@ const handleShowDataDrawer=(event,ele)=>{
                                           
                                             return(
                                                 <Grid key={index} item xs={3} sx={{height:{lg:"250px",md:"220px",sm:"200px",xs:"130px"},mt:"13px"}} onClick={()=>{setImageShow(index)}}>
-                                                   <Box sx={{height:"100%",width:"95%",backgroundImage:`url(${ele.img.src})`,backgroundRepeat:"no-repeat",backgroundSize:"100% 100%",opacity:imageShow == index?"":"0.5"}} >
+                                                   <Box sx={{height:"100%",width:"95%",backgroundImage:`url(${ele.img.src})`,backgroundRepeat:"no-repeat",backgroundSize:"cover",opacity:imageShow == index?"":"0.5"}} >
                                                      
                                                    </Box>
                                                   
